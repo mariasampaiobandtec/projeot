@@ -4,6 +4,9 @@
   "private": true,
   "scripts": {
     "start": "node ./projeto-site/bin/www",
-	"postinstall": "cd projeto-site && npm install"
+    "postinstall": "cd projeto-site && npm install"
+  },
+  "dependencies": {
+    "mysql2": "^2.0.1"
   }
 }
